@@ -25,7 +25,7 @@ CRAN:
       -  
   * Documentation
     + Fixed a number of Rd issues on Rdevcheck (RH 240903)
-
+    + Updated short vignette to fix a broken hyperlink (RH 240904)
 
 2.73.5 (2024-04-11) [Rcheck=F, Rbuild=F]
   * Documentation
