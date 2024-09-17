@@ -14,9 +14,12 @@ CRAN:
     UL = Uwe Ligges
 --------------------------------------------------
 
-2.73.8 (2024-09-09) [Rcheck=T, Rbuild=T]
+2.73.8 (2024-09-17) [Rcheck=T, Rbuild=T]
   * Documentation
     + Attempt to add a path containing `pdflatex' onto path for Sweave vignette. (RH 240909)
+      - various attempts but Rhub still craps out on missing 'pdflatex'
+    + Adding R code into Rnw vignette raised another issue about missing tangle (RH 240916)
+      + Followed example of package `gglasso' by adding Rnw, R and PDF into `inst/doc' directory
 
 2.73.7 (2024-09-05) [Rcheck=T, Rbuild=T]
   * C code
